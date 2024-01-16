@@ -1,0 +1,713 @@
+[
+  {
+    "tilename":"ベースマップ：標準地図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png",
+    "zoomlevels":[5,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"ベースマップ：淡色地図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png",
+    "zoomlevels":[5,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"ベースマップ：English",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/english/{z}/{x}/{y}.png",
+    "zoomlevels":[5,11],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：数値地図25000（土地条件）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lcm25k_2012/{z}/{x}/{y}.png",
+    "zoomlevels":[10,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：土地条件図（初期整備版）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lcm25k/{z}/{x}/{y}.png",
+    "zoomlevels":[10,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：沿岸海域土地条件図（平成元年以降）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/ccm1/{z}/{x}/{y}.png",
+    "zoomlevels":[14,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：沿岸海域土地条件図（昭和63年以前）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/ccm2/{z}/{x}/{y}.png",
+    "zoomlevels":[14,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：火山基本図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/vbm/{z}/{x}/{y}.png",
+    "zoomlevels":[11,17],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：火山基本図データ（基図）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/vbmd_bm/{z}/{x}/{y}.png",
+    "zoomlevels":[11,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：火山基本図データ（陰影段彩図）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/vbmd_colorrel/{z}/{x}/{y}.png",
+    "zoomlevels":[11,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：火山基本図データ（写真地図）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/vbmd_pm/{z}/{x}/{y}.png",
+    "zoomlevels":[11,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：火山土地条件図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/vlcd/{z}/{x}/{y}.png",
+    "zoomlevels":[10,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：宅地利用動向調査（首都圏 2005年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lum4bl_capital2005/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：宅地利用動向調査（首都圏 2000年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lum4bl_capital2000/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：宅地利用動向調査（中部圏 2003年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lum4bl_chubu2003/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：宅地利用動向調査（近畿圏 2008年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lum4bl_kinki2008/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：宅地利用動向調査（近畿圏 2001年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lum4bl_kinki2001/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：20万分1土地利用図（1982～1983年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lum200k/{z}/{x}/{y}.png",
+    "zoomlevels":[11,14],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：湖沼図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lake1/{z}/{x}/{y}.png",
+    "zoomlevels":[11,17],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：湖沼データ",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lakedata/{z}/{x}/{y}.png",
+    "zoomlevels":[11,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"Application required by GSI"
+  },
+  {
+    "tilename":"ベースマップ：標準地図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png",
+    "zoomlevels":[2,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"ベースマップ：淡色地図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png",
+    "zoomlevels":[2,8],
+    "credit":"国土地理院：{tilename}; Shoreline data is derived from: United States. National Imagery and Mapping Agency. \"Vector Map Level 0 (VMAP0).\" Bethesda, MD: Denver, CO: The Agency; USGS Information Services, 1997.",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"ベースマップ：白地図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/blank/{z}/{x}/{y}.png",
+    "zoomlevels":[5,14],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"ベースマップ：	全国最新写真（シームレス）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg",
+    "zoomlevels":[2,18],
+    "credit":"国土地理院：{tilename}; データソース：「電子国土基本図（オルソ画像）」、「東日本大震災後正射画像」、「森林（国有林）の空中写真（林野庁）」、「簡易空中写真」、「国土画像情報」「Landsat8画像（GSI,TSIC,GEO Grid/AIST）, Landsat8画像（courtesy of the U.S. Geological Survey）, 海底地形（GEBCO)」。Images on 世界衛星モザイク画像 obtained from site https://lpdaac.usgs.gov/data_access maintained by the NASA Land Processes Distributed Active Archive Center (LP DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota, (Year). Source of image data product.",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：年度別空中写真（2007年以降）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/nendophoto{year}/{z}/{x}/{y}.png",
+    "zoomlevels":[14,18],
+    "years":[2007,null],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：1987年～1990年",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/gazo4/{z}/{x}/{y}.jpg",
+    "zoomlevels":[10,17],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：1984年～1986年",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/gazo3/{z}/{x}/{y}.jpg",
+    "zoomlevels":[10,17],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：1979年～1983年",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/gazo2/{z}/{x}/{y}.jpg",
+    "zoomlevels":[10,17],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：1974年～1978年",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/gazo1/{z}/{x}/{y}.jpg",
+    "zoomlevels":[10,17],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：1961年～1969年",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/ort_old10/{z}/{x}/{y}.png",
+    "zoomlevels":[10,17],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：1945年～1950年",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/ort_USA10/{z}/{x}/{y}.png",
+    "zoomlevels":[10,17],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：1936年～1942年頃",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/ort_riku10/{z}/{x}/{y}.png",
+    "zoomlevels":[13,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：1928年頃",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/ort_1928/{z}/{x}/{y}.png",
+    "zoomlevels":[13,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：電子国土基本図（オルソ画像）（2007年～）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/ort/{z}/{x}/{y}.jpg",
+    "zoomlevels":[14,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：簡易空中写真（2004年～）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/airphoto/{z}/{x}/{y}.png",
+    "zoomlevels":[14,18],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：単写真",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/pp/{z}/{x}/{y}.geojson",
+    "zoomlevels":[14,14],
+    "credit":"国土地理院：{tilename}; 撮影計画機関：国土地理院/陸軍/米軍/その他",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：全国ランドサットモザイク画像",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lndst/{z}/{x}/{y}.png",
+    "zoomlevels":[2,13],
+    "credit":"国土地理院：{tilename}; データソース：Landsat8画像（GSI,TSIC,GEO Grid/AIST）, Landsat8画像（courtesy of the U.S. Geological Survey）, 海底地形（GEBCO）",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"年代別の写真：世界衛星モザイク画像",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/modis/{z}/{x}/{y}.png",
+    "zoomlevels":[2,8],
+    "credit":"国土地理院：{tilename}; Images on 世界衛星モザイク画像 obtained from site https://lpdaac.usgs.gov/data_access maintained by the NASA Land Processes Distributed Active Archive Center (LP DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota, (Year). Source of image data product.",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高・土地の凹凸：色別標高図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/relief/{z}/{x}/{y}.png",
+    "zoomlevels":[5,15],
+    "credit":"国土地理院：{tilename}; 海域部は海上保安庁海洋情報部の資料を使用して作成",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高・土地の凹凸：デジタル標高地形図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/{refno}/{z}/{x}/{y}.png",
+    "zoomlevels":[,],
+    "credit":"国土地理院：{tilename}(技術資料{refno})",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高・土地の凹凸：アナグリフ（カラー）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/anaglyphmap_color/{z}/{x}/{y}.png",
+    "zoomlevels":[2,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高・土地の凹凸：アナグリフ（グレー）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/anaglyphmap_gray/{z}/{x}/{y}.png",
+    "zoomlevels":[2,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高・土地の凹凸：陰影起伏図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/hillshademap/{z}/{x}/{y}.png",
+    "zoomlevels":[2,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高・土地の凹凸：陰影起伏図（全球版）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/earthhillshade/{z}/{x}/{y}.png",
+    "zoomlevels":[0,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高・土地の凹凸：傾斜量図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/slopemap/{z}/{x}/{y}.png",
+    "zoomlevels":[3,15],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高・土地の凹凸：全国傾斜量区分図（雪崩関連）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/slopezone1map/{z}/{x}/{y}.png",
+    "zoomlevels":[,],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：活断層図（都市圏活断層図）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/afm/{z}/{x}/{y}.png",
+    "zoomlevels":[11,16],
+    "credit":"国土地理院：{tilename}; !!個別の調査者名を記載してください!!",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：火山地形分類データ",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/vlcd_(火山名)/{z}/{x}/{y}.png",
+    "zoomlevels":[10,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：治水地形分類図",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lcmfc2/{z}/{x}/{y}.png",
+    "zoomlevels":[11,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：治水地形分類図 初版（1976～1978年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lcmfc1/{z}/{x}/{y}.png",
+    "zoomlevels":[14,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：明治期の低湿地",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/swale/{z}/{x}/{y}.png",
+    "zoomlevels":[10,16],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：宅地利用動向調査成果（首都圏 {year}年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lum4bl_capital{year}/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "years":[1994,1989,1984,1979,1974],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：宅地利用動向調査成果（中部圏 {year}年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lum4bl_chubu{year}/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "years":[1997,1991,1987,1982,1977],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：宅地利用動向調査成果（近畿圏 {year}年）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lum4bl_kinki{year}/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "years":[1996,1991,1985,1979,1974],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"土地の成り立ち・土地利用：全国植生指標データ（250m）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/ndvi_250m_{西暦}_{月}/{z}/{x}/{y}.png",
+    "zoomlevels":[2,10],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：基準点",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/cp/{z}/{x}/{y}.geojson",
+    "zoomlevels":[7,12],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2020.0年値（磁気図（偏角）／偏角一覧図）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2020_chijiki_d/{z}/{x}/{y}.png",
+    "zoomlevels":[4,13],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2020.0年値（磁気図（伏角））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2020_chijiki_i/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2020.0年値（磁気図（全磁力））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2020_chijiki_f/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2020.0年値（磁気図（水平分力））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2020_chijiki_h/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2020.0年値（磁気図（鉛直分力））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2020_chijiki_z/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2015.0年値（磁気図（偏角）／偏角一覧図）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2015_chijiki_d/{z}/{x}/{y}.png",
+    "zoomlevels":[4,13],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2015.0年値（磁気図（伏角））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2015_chijiki_i/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2015.0年値（磁気図（全磁力））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2015_chijiki_f/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2015.0年値（磁気図（水平分力））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2015_chijiki_h/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2015.0年値（磁気図（鉛直分力））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu2015_chijiki_z/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2010.0年値（磁気図（偏角）／偏角一覧図）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu_chijikid/{z}/{x}/{y}.png",
+    "zoomlevels":[4,13],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2010.0年値（磁気図（伏角））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu_chijikii/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2010.0年値（磁気図（全磁力））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu_chijikif/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2010.0年値（磁気図（水平分力））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu_chijikih/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"基準点・地磁気・地殻変動：磁気図2010.0年値（磁気図（鉛直分力））",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/jikizu_chijikiz/{z}/{x}/{y}.png",
+    "zoomlevels":[4,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報／世界の土地被覆）：震災伝承施設",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/shinsaidenshoushisetsu/{z}/{x}/{y}.geojson",
+    "zoomlevels":[7,7],
+    "credit":"国土地理院：{tilename}; 「震災伝承施設」は、東日本大震災から得られた個々の実情と教訓を、総体として広く国内外及び次世代に継承すること、あわせて地域の交流促進、地方創生及び地域の防災力の強化に寄与することを目的として、 東北地方整備局、青森県、岩手県、宮城県、福島県、仙台市から構成される震災伝承ネットワーク協議会が広く一般から募集し、登録された施設です。",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報／世界の土地被覆）：森林（国有林）の空中写真（林野庁）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/rinya/{z}/{x}/{y}.png",
+    "zoomlevels":[14,18],
+    "credit":"国土地理院：{tilename}; データソース：林野庁",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報／世界の土地被覆）：みなとオアシス（港湾局）（アイコン）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/minato_icon/{z}/{x}/{y}.geojson",
+    "zoomlevels":[2,2],
+    "credit":"国土地理院：{tilename}; データソース：国土交通省港湾局産業港湾課",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報／世界の土地被覆）：みなとオアシス（港湾局）（ポリゴン）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/minato_polygon/{z}/{x}/{y}.geojson",
+    "zoomlevels":[2,2],
+    "credit":"国土地理院：{tilename}; データソース：国土交通省港湾局産業港湾課",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報／世界の土地被覆）：土地被覆（GLCNMO）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/gmld_glcnmo2/{z}/{x}/{y}.png",
+    "zoomlevels":[0,7],
+    "credit":"国土地理院：{tilename}; © 国土地理院・千葉大学・協働機関",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報／世界の土地被覆）：植生（樹木被覆率）",
+    "url":"URL：https://cyberjapandata.gsi.go.jp/xyz/gmld_ptc2/{z}/{x}/{y}.png",
+    "zoomlevels":[0,7],
+    "credit":"国土地理院：{tilename}; © 国土地理院・千葉大学・協働機関",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：標高タイル（基盤地図情報数値標高モデル）（DEM5A テキスト形式）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/dem5a/{z}/{x}/{y}.txt",
+    "zoomlevels":[1,15],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：標高タイル（基盤地図情報数値標高モデル）（DEM5B テキスト形式）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/dem5b/{z}/{x}/{y}.txt",
+    "zoomlevels":[1,15],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：標高タイル（基盤地図情報数値標高モデル）（DEM10B テキスト形式）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/dem/{z}/{x}/{y}.txt",
+    "zoomlevels":[1,15],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：標高タイル（基盤地図情報数値標高モデル）（DEM10B PNG形式）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/dem_png/{z}/{x}/{y}.png",
+    "zoomlevels":[1,14],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：標高タイル（基盤地図情報数値標高モデル）（DEM5A PNG形式）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/dem5a_png/{z}/{x}/{y}.png",
+    "zoomlevels":[1,15],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：標高タイル（基盤地図情報数値標高モデル）（DEM5B PNG形式）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/dem5b_png/{z}/{x}/{y}.png",
+    "zoomlevels":[1,15],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：標高タイル（基盤地図情報数値標高モデル）（DEM5C PNG形式）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/dem5c_png/{z}/{x}/{y}.png",
+    "zoomlevels":[1,14],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：標高タイル（地球地図全球版標高第2版）（テキスト形式）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/demgm/{z}/{x}/{y}.txt ",
+    "zoomlevels":[0,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：標高タイル（地球地図全球版標高第2版）（PNG形式）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/demgm_png/{z}/{x}/{y}.png",
+    "zoomlevels":[0,8],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：湖水深タイル",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lakedepth/{z}/{x}/{y}.png",
+    "zoomlevels":[14,14],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"標高タイル：基準水面標高タイル",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/lakedepth_standard/{z}/{x}/{y}.png",
+    "zoomlevels":[14,14],
+    "credit":"国土地理院：{tilename}",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"災害伝承・避難場所：指定緊急避難場所（洪水）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/skhb01/{z}/{x}/{y}.geojson",
+    "zoomlevels":[10,10],
+    "credit":"国土地理院：{tilename}; 最新かつ詳細の状況などは必ず当該市町村にご確認ください。(!!取得日明示のこと!!)",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"災害伝承・避難場所：指定緊急避難場所（崖崩れ、土石流及び地滑り）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/skhb02/{z}/{x}/{y}.geojson",
+    "zoomlevels":[10,10],
+    "credit":"国土地理院：{tilename}; 最新かつ詳細の状況などは必ず当該市町村にご確認ください。(!!取得日明示のこと!!)",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"災害伝承・避難場所：指定緊急避難場所（高潮）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/skhb03/{z}/{x}/{y}.geojson",
+    "zoomlevels":[10,10],
+    "credit":"国土地理院：{tilename}; 最新かつ詳細の状況などは必ず当該市町村にご確認ください。(!!取得日明示のこと!!)",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"災害伝承・避難場所：指定緊急避難場所（地震）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/skhb04/{z}/{x}/{y}.geojson",
+    "zoomlevels":[10,10],
+    "credit":"国土地理院：{tilename}; 最新かつ詳細の状況などは必ず当該市町村にご確認ください。(!!取得日明示のこと!!)",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"災害伝承・避難場所：指定緊急避難場所（津波）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/skhb05/{z}/{x}/{y}.geojson",
+    "zoomlevels":[10,10],
+    "credit":"国土地理院：{tilename}; 最新かつ詳細の状況などは必ず当該市町村にご確認ください。(!!取得日明示のこと!!)",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"災害伝承・避難場所：指定緊急避難場所（大規模な火事）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/skhb06/{z}/{x}/{y}.geojson",
+    "zoomlevels":[10,10],
+    "credit":"国土地理院：{tilename}; 最新かつ詳細の状況などは必ず当該市町村にご確認ください。(!!取得日明示のこと!!)",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"災害伝承・避難場所：指定緊急避難場所（内水氾濫）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/skhb07/{z}/{x}/{y}.geojson",
+    "zoomlevels":[10,10],
+    "credit":"国土地理院：{tilename}; 最新かつ詳細の状況などは必ず当該市町村にご確認ください。(!!取得日明示のこと!!)",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"災害伝承・避難場所：指定緊急避難場所（火山現象）",
+    "url":"https://cyberjapandata.gsi.go.jp/xyz/skhb08/{z}/{x}/{y}.geojson",
+    "zoomlevels":[10,10],
+    "credit":"国土地理院：{tilename}; 最新かつ詳細の状況などは必ず当該市町村にご確認ください。(!!取得日明示のこと!!)",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報）：土地分類基本調査（土地履歴調査）（国土政策局）（地形分類図）",
+    "url":"https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/terrainclassification/terrainclassification1/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "credit":"国土地理院：{tilename}; データソース：国土交通省国土政策局「土地分類基本調査（土地履歴調査）」",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報）：土地分類基本調査（土地履歴調査）（国土政策局）（土地利用分類（第一期：明治期））",
+    "url":"https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/landuseclassification/landuseclassification1/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "credit":"国土地理院：{tilename}; データソース：国土交通省国土政策局「土地分類基本調査（土地履歴調査）」",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報）：土地分類基本調査（土地履歴調査）（国土政策局）（土地利用分類（第二期：昭和期））",
+    "url":"https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/landuseclassification/landuseclassification2/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "credit":"国土地理院：{tilename}; データソース：国土交通省国土政策局「土地分類基本調査（土地履歴調査）」",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報）：土地分類基本調査（土地履歴調査）（国土政策局）（災害履歴図（地盤沈下））",
+    "url":"https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/DisasterHist_landSubsidence/landSubsidence/{z}/{x}/{y}.png",
+    "zoomlevels":[13,16],
+    "credit":"国土地理院：{tilename}; データソース：国土交通省国土政策局「土地分類基本調査（土地履歴調査）」",
+    "permission":"show credit"
+  },
+  {
+    "tilename":"その他（他機関の情報）：地質図（産総研地質調査総合センター）（シームレス地質図）",
+    "url":"https://gbank.gsj.jp/seamless/v2/api/1.2/tiles/{z}/{y}/{x}.png",
+    "zoomlevels":[3,13],
+    "credit":"国土地理院：{tilename}; データソース：産業技術総合研究所地質調査総合センター「20万分の1日本シームレス地質図V2」",
+    "permission":"show credit"
+  }
+]
