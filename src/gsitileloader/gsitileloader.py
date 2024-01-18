@@ -20,7 +20,7 @@ class GSITileLoader:
     def search_about(cls,key):
         res = []
         for vv in cls.tilelist:
-            if key in vv["tilename"]:
+            if key in vv["tilename"] or key in vv["url"]:
                 res.append(vv.copy())
         return res
 
