@@ -1,5 +1,6 @@
 import json
 import os
+import numpy as np
 from xyztilefile import *
 
 xyz = calc_xyz_from_lonlat
@@ -36,9 +37,16 @@ class GSITileLoader:
 
         self.loader = XYZTileFile(self.tileinfo["url"])
         self.credit = self.tileinfo["credit"].format(tilename=self.tileinfo["tilename"])
+        zoomlevels_len = len(self.tileinfo["zoomlevels"])
+        if zoomlevels_len == 2:
+            self.zoomlevels = np.arange(self.tileinfo["zoomlevels"][0],self.tileinfo["zoomlevels"][1]+1)
+        else:
+            self.zoomlevels = np.array(self.tileinfo["zoomlevels"])
 
-    def get(lon, lat, zoom):
+    def get(self,lon, lat, zoom):
+        if zoom not in self.zoomlevels:
+            return None
         return loader.get(*xyz(lon,lat,zoom))
 
     def __repr__(self):
-        return f"<{repr(self.__class__)}: {repr(self.loader)}; credit: {repr(self.credit)}>"
+        return f"<{repr(self.__class__)}: {repr(self.loader)}, credit: {repr(self.credit)}, zoomlevels:{repr(self.zoomlevels)}>"

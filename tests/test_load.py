@@ -25,4 +25,6 @@ except RuntimeError as e:
     print(e)
 print("---")
 tile3 = GSITileLoader("ベースマップ：全国最新写真（シームレス）")
+pp.pprint(tile3)
 print(tile3.credit)
+print(tile3.get(10,10,0))
