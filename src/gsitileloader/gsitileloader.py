@@ -46,7 +46,7 @@ class GSITileLoader:
     def get(self,lon, lat, zoom):
         if zoom not in self.zoomlevels:
             return None
-        return loader.get(*xyz(lon,lat,zoom))
+        return loader.get(*xyz(lon,lat,zoom)) # get the corresponding tile
 
     def __repr__(self):
         return f"<{repr(self.__class__)}: {repr(self.loader)}, credit: {repr(self.credit)}, zoomlevels:{repr(self.zoomlevels)}>"
