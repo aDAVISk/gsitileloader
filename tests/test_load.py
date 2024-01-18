@@ -31,7 +31,7 @@ print(tile3.credit)
 print(tile3.get(10,10,0))
 
 img = tile3.get(34.563015,135.487089,16)
-pp.pprint(img)
+#pp.pprint(img)
 fig, ax = plt.subplots()
 ax.imshow(img)
 plt.show()
