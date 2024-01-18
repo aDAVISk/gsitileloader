@@ -161,7 +161,7 @@
     "permission":"show credit"
   },
   {
-    "tilename":"ベースマップ：	全国最新写真（シームレス）",
+    "tilename":"ベースマップ：全国最新写真（シームレス）",
     "url":"https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg",
     "zoomlevels":[2,18],
     "credit":"国土地理院：{tilename}; データソース：「電子国土基本図（オルソ画像）」、「東日本大震災後正射画像」、「森林（国有林）の空中写真（林野庁）」、「簡易空中写真」、「国土画像情報」「Landsat8画像（GSI,TSIC,GEO Grid/AIST）, Landsat8画像（courtesy of the U.S. Geological Survey）, 海底地形（GEBCO)」。Images on 世界衛星モザイク画像 obtained from site https://lpdaac.usgs.gov/data_access maintained by the NASA Land Processes Distributed Active Archive Center (LP DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota, (Year). Source of image data product.",
@@ -274,13 +274,6 @@
     "permission":"show credit"
   },
   {
-    "tilename":"標高・土地の凹凸：デジタル標高地形図",
-    "url":"https://cyberjapandata.gsi.go.jp/xyz/{refno}/{z}/{x}/{y}.png",
-    "zoomlevels":[,],
-    "credit":"国土地理院：{tilename}(技術資料{refno})",
-    "permission":"show credit"
-  },
-  {
     "tilename":"標高・土地の凹凸：アナグリフ（カラー）",
     "url":"https://cyberjapandata.gsi.go.jp/xyz/anaglyphmap_color/{z}/{x}/{y}.png",
     "zoomlevels":[2,16],
@@ -318,7 +311,7 @@
   {
     "tilename":"標高・土地の凹凸：全国傾斜量区分図（雪崩関連）",
     "url":"https://cyberjapandata.gsi.go.jp/xyz/slopezone1map/{z}/{x}/{y}.png",
-    "zoomlevels":[,],
+    "zoomlevels":[3,15],
     "credit":"国土地理院：{tilename}",
     "permission":"show credit"
   },
