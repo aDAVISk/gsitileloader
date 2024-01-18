@@ -2,6 +2,7 @@ import json
 import os
 import numpy as np
 from xyztilefile import *
+from requests.exceptions import HTTPError
 
 xyz = calc_xyz_from_lonlat
 
@@ -46,7 +47,10 @@ class GSITileLoader:
     def get(self,lat, lon, zoom, **kwargs):
         if zoom not in self.zoomlevels:
             return None
-        return self.loader.get(*xyz(lon,lat,zoom)) # get the corresponding tile
+        try:
+            return self.loader.get(*xyz(lon,lat,zoom)) # get the corresponding tile
+        except HTTPError:
+            return None
 
     def __repr__(self):
         return f"<{repr(self.__class__)}: {repr(self.loader)}, credit: {repr(self.credit)}, zoomlevels:{repr(self.zoomlevels)}>"

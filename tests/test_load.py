@@ -25,7 +25,7 @@ except RuntimeError as e:
     print("Error is raised as expected:")
     print(e)
 print("---")
-tile3 = GSITileLoader("年代別の写真：簡易空中写真（2004年～）")
+tile3 = GSITileLoader("年代別の写真：年度別空中写真（2007年以降）",year=2021)
 pp.pprint(tile3)
 print(tile3.credit)
 print(tile3.get(10,10,0))
