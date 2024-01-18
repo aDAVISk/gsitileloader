@@ -316,13 +316,6 @@
     "permission":"show credit"
   },
   {
-    "tilename":"土地の成り立ち・土地利用：活断層図（都市圏活断層図）",
-    "url":"https://cyberjapandata.gsi.go.jp/xyz/afm/{z}/{x}/{y}.png",
-    "zoomlevels":[11,16],
-    "credit":"国土地理院：{tilename}; !!個別の調査者名を記載してください!!",
-    "permission":"show credit"
-  },
-  {
     "tilename":"土地の成り立ち・土地利用：火山地形分類データ",
     "url":"https://cyberjapandata.gsi.go.jp/xyz/vlcd_(火山名)/{z}/{x}/{y}.png",
     "zoomlevels":[10,16],
