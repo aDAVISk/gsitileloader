@@ -6,7 +6,7 @@ from xyztilefile import *
 xyz = calc_xyz_from_lonlat
 
 class GSITileLoader:
-    with open(os.path.dirname(__file__)+"\\tileinfo.json", "r") as ifile:
+    with open(os.path.dirname(__file__)+"/tileinfo.json", "r") as ifile:
         tilelist = json.load(ifile)
 
     @classmethod
@@ -24,7 +24,7 @@ class GSITileLoader:
                 res.append(vv.copy())
         return res
 
-    def __init__(self, key, **kwargs):
+    def __init__(self, key, cache=None, **kwargs):
         tileinfo = self.__class__.search(key)
         if tileinfo is None:
             raise ValueError(f"No tile is found with {key}")
@@ -35,7 +35,7 @@ class GSITileLoader:
                 permission = self.tileinfo["permission"]
                 raise RuntimeError(f"This tile has requirements: {permission}.\n If you have fullfilled the requirements, please construct the instance with the keyword 'override_permission=True'.")
 
-        self.loader = XYZTileFile(self.tileinfo["url"])
+        self.loader = XYZTileFile(self.tileinfo["url"],cache=cache)
         self.credit = self.tileinfo["credit"].format(tilename=self.tileinfo["tilename"])
         zoomlevels_len = len(self.tileinfo["zoomlevels"])
         if zoomlevels_len == 2:
