@@ -23,3 +23,6 @@ try:
 except RuntimeError as e:
     print("Error is raised as expected:")
     print(e)
+print("---")
+tile3 = GSITileLoader("ベースマップ：全国最新写真（シームレス）")
+print(tile3.credit)

@@ -35,12 +35,10 @@ class GSITileLoader:
                 raise RuntimeError(f"This tile has requirements: {permission}.\n If you have fullfilled the requirements, please construct the instance with the keyword 'override_permission=True'.")
 
         self.loader = XYZTileFile(self.tileinfo["url"])
+        self.credit = self.tileinfo["credit"].format(tilename=self.tileinfo["tilename"])
 
     def get(lon, lat, zoom):
         return loader.get(*xyz(lon,lat,zoom))
 
     def __repr__(self):
-        return f"<{repr(self.__class__)}: {repr(self.loader)}; credit: {repr(self.showcredit())}>"
-
-    def showcredit(self):
-        return self.tileinfo["credit"].format(tilename=self.tileinfo["tilename"])
+        return f"<{repr(self.__class__)}: {repr(self.loader)}; credit: {repr(self.credit)}>"
