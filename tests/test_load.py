@@ -1,5 +1,4 @@
 from gsitileloader import *
-import os
 import matplotlib.pyplot as plt
 import pprint
 pp = pprint.PrettyPrinter(indent=3)
