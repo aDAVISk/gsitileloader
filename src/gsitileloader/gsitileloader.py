@@ -35,7 +35,7 @@ class GSITileLoader:
                 permission = self.tileinfo["permission"]
                 raise RuntimeError(f"This tile has requirements: {permission}.\n If you have fullfilled the requirements, please construct the instance with the keyword 'override_permission=True'.")
 
-        self.loader = XYZTileFile(self.tileinfo["url"],cache=cache)
+        self.loader = XYZTileFile(self.tileinfo["url"].format(**kwargs,x="{x}",y="{y}",z="{z}"),cache=cache)
         self.credit = self.tileinfo["credit"].format(tilename=self.tileinfo["tilename"])
         zoomlevels_len = len(self.tileinfo["zoomlevels"])
         if zoomlevels_len == 2:
@@ -43,10 +43,10 @@ class GSITileLoader:
         else:
             self.zoomlevels = np.array(self.tileinfo["zoomlevels"])
 
-    def get(self,lon, lat, zoom):
+    def get(self,lat, lon, zoom, **kwargs):
         if zoom not in self.zoomlevels:
             return None
-        return loader.get(*xyz(lon,lat,zoom)) # get the corresponding tile
+        return self.loader.get(*xyz(lon,lat,zoom)) # get the corresponding tile
 
     def __repr__(self):
         return f"<{repr(self.__class__)}: {repr(self.loader)}, credit: {repr(self.credit)}, zoomlevels:{repr(self.zoomlevels)}>"
