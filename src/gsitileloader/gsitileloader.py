@@ -23,11 +23,24 @@ class GSITileLoader:
                 res.append(vv.copy())
         return res
 
-    def __init__(self):
-        self.loader = XYZTileFile("https://cyberjapandata.gsi.go.jp/xyz/dem5a/{z}/{x}/{y}.txt")
+    def __init__(self, key, **kwargs):
+        tileinfo = self.__class__.search(key)
+        if tileinfo is None:
+            raise ValueError(f"No tile is found with {key}")
+        self.tileinfo = tileinfo
+        #print(kwargs)
+        if "required" in self.tileinfo["permission"]:
+            if "override_permission" not in kwargs or not kwargs["override_permission"]:
+                permission = self.tileinfo["permission"]
+                raise RuntimeError(f"This tile has requirements: {permission}.\n If you have fullfilled the requirements, please construct the instance with the keyword 'override_permission=True'.")
+
+        self.loader = XYZTileFile(self.tileinfo["url"])
 
     def get(lon, lat, zoom):
         return loader.get(*xyz(lon,lat,zoom))
 
     def __repr__(self):
-        return f"<{repr(self.__class__)}: {repr(self.loader)}>"
+        return f"<{repr(self.__class__)}: {repr(self.loader)}; credit: {repr(self.showcredit())}>"
+
+    def showcredit(self):
+        return self.tileinfo["credit"].format(tilename=self.tileinfo["tilename"])
