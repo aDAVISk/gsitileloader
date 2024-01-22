@@ -16,14 +16,15 @@ class GSITileManager(GSITileLoader):
         self.zoomlevels = self.httploader.zoomlevels
 
     def get(self,lat, lon, zoom, **kwargs):
+        coord = xyz(lon,lat,zoom)
         if zoom not in self.zoomlevels:
             return None
         try:
-            return self.localsrc.get(*xyz(lon,lat,zoom))
+            return self.localsrc.get(*coord)
         except FileNotFoundError:
             pass
         try:
-            return self.httploader.get(*xyz(lon,lat,zoom)) # get the corresponding tile
+            return self.httploader.get(*coord) # get the corresponding tile
         except HTTPError:
             pass
         return None
