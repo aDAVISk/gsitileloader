@@ -35,8 +35,9 @@ class GSITileLoader:
             if "override_permission" not in kwargs or not kwargs["override_permission"]:
                 permission = self.tileinfo["permission"]
                 raise RuntimeError(f"This tile has requirements: {permission}.\n If you have fullfilled the requirements, please construct the instance with the keyword 'override_permission=True'.")
-
-        self.loader = XYZTileFile(self.tileinfo["url"].format(**kwargs,x="{x}",y="{y}",z="{z}"),cache=cache)
+        if "loadfunc" in kwargs and kwargs["loadfunc"] is None:
+            del kwargs["loadfunc"]
+        self.loader = XYZTileFile(self.tileinfo["url"].format(**kwargs,x="{x}",y="{y}",z="{z}"),cache=cache, **kwargs)
         self.credit = self.tileinfo["credit"].format(tilename=self.tileinfo["tilename"])
         zoomlevels_len = len(self.tileinfo["zoomlevels"])
         if zoomlevels_len == 2:
