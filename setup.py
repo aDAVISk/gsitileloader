@@ -12,12 +12,12 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md'), encoding='utf-8'
 setup(
     name='gsitileloader',  # パッケージ名（pip listで表示される）
     version="0.0.1",  # バージョン
-    description="manage files in xyz tile format",  # 説明
+    description="load tiles from GSI",  # 説明
     author='Akito Davis Kawamura',  # 作者名
     license='MIT',  # ライセンス
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
-    install_requires=['numpy', 'scikit-image', 'xyztilefile'],
+    install_requires=['numpy', 'xyztilefile'],
     long_description=long_description,
     long_description_content_type='text/markdown',
     keywords='gsitileloader gsi gsi-tile xyz-tile xyztile',

@@ -1,2 +1,3 @@
 from .gsitileloader import GSITileLoader
-__all__ = ['GSITileLoader']
+from .gsitilemanager import GSITileManager
+__all__ = ['GSITileLoader', 'GSITileManager']

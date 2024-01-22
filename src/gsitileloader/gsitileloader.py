@@ -1,8 +1,8 @@
 import json
 import os
 import numpy as np
-from xyztilefile import *
 from requests.exceptions import HTTPError
+from xyztilefile import *
 
 xyz = calc_xyz_from_lonlat
 
